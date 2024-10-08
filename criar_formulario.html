@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Criar Formulário</h1>
+    
+    <label for="form-title">Título do Formulário:</label>
+    <input type="text" id="form-title" required>
+    
+    <label for="form-description">Descrição do Formulário:</label>
+    <textarea id="form-description"></textarea>
+
+    <div id="questions-container">
+        <div class="question">
+            <label>Texto da Pergunta:</label>
+            <input type="text" class="question-text" required>
+            
+            <label>Tipo da Pergunta:</label>
+            <select class="question-type">
+                <option value="text">Texto</option>
+                <option value="radio">Radio</option>
+                <option value="checkbox">Checkbox</option>
+                <option value="textarea">Textarea</option>
+            </select>
+            
+            <label>Opções (se aplicável, separadas por vírgula):</label>
+            <input type="text" class="question-options">
+        </div>
+    </div>
+
+    <button id="create-form-btn">Criar Formulário</button>
+    
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
