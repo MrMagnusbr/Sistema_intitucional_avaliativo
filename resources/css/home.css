@@ -1,0 +1,306 @@
+/* Reset Css Abaixo*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+   
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    /* 62.5% of 16px user agent font size is 10px */
+  font-size: 62.5%; /*a cada 1 rem é igual a 10px  */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.home-main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5rem;
+    margin-left: -5rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.home-image-container {
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1rem solid #d9d9d9;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    border-top: 0.4rem solid #25a100;
+    
+
+
+}
+
+.home-logo {
+    width: 10rem;
+    border: 0.1rem solid #d9d9d9;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.home-login-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 25vw;
+    height: 90vh;
+    border: 0.1rem solid #d9d9d9;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+
+.home-form-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.home-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.password-options-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    width: 25vw;
+    
+    margin-top: 4rem;
+}
+
+.password-options-container a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #0092ff;
+    font-size: 1.5rem;
+    transition: 1s ease all;
+    border-bottom: 0.1rem solid transparent;
+}
+
+.password-options-container a:hover {
+    opacity: 0.8;
+    border-bottom: 0.1rem solid #0092ff;
+}
+
+.home-input-keep-connected {
+    accent-color: #2196F3;
+    transform: scale(1.5);
+    margin-right: 1rem;
+  }
+
+.home-input-keep-connected:hover {
+    cursor: pointer;
+  }
+
+.home-form-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.home-submit-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 25vw;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.home-inputs-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.home-checkbox-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.home-input-label-k-connected {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.home-input-label-k-connected:hover {
+    opacity: 0.7;
+}
+
+.home-inputs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-input-user, .home-input-password {
+    width: 90%;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    padding: 1.2rem;
+}
+
+.home-input-user:focus {
+    outline-width: 0;
+    border: 0.1rem solid #2196F3;
+}
+
+.home-input-password:focus {
+    outline-width: 0;
+    border: 0.1rem solid #2196F3;
+}
+
+.home-submit-button {
+    padding: 1rem;
+    border: none;
+    background-color: #0092ff;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    width: 15rem;
+    transition: 0.3s ease-in all;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.home-submit-button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .home-login-section {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .home-image-container {
+        width: 95vw;
+    }
+
+    .home-form-container {
+        width: 90vw;
+    }
+
+    .home-inputs-container {
+        width: 100vw;
+    }
+
+    .home-input-user, .home-input-password {
+        width: 60%;
+    }
+
+    .home-submit-container {
+        width: 70vw;
+        justify-content: space-evenly;
+    }
+
+    .home-submit-container {
+        padding: 0;
+    }
+
+    .password-options-container {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-input-user, .home-input-password {
+        width: 70%;
+    }
+
+    .home-submit-button { 
+        width: 20rem;
+    }
+
+    .home-submit-container {
+        width: 90%;
+    }
+
+    .home-submit-container {
+        width: 70vw;
+    }
+
+    .password-options-container {
+        width: 80vw;
+    }
+}
+
+

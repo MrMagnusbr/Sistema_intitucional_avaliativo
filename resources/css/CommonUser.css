@@ -1,0 +1,213 @@
+/* Reset Css Abaixo*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+   
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    /* 62.5% of 16px user agent font size is 10px */
+  font-size: 62.5%; /*a cada 1 rem é igual a 10px  */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.common-header {
+    width: 100vw;
+    height: 4rem;
+    padding: 1rem;
+}
+
+.common-ifnmg-logo {
+    width: 3rem;
+    margin-left: 2rem;
+}
+
+.common-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.common-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #2e2e2e;
+}
+
+.common-text-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+.common-user-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    color: #fff;
+    margin-right: 6rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+.common-user-questionaries-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.questionaries-list-description-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.6rem;
+    justify-content: flex-start;
+    width: 100vw;
+    padding: 1rem;
+    margin-left: 4rem;
+}
+
+.questionaries-list-icon {
+    width: 3rem;
+}
+
+.questionaries-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.questionaire-container {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.1rem solid #dfdfdf;
+    padding: 2rem;
+    border-radius: 0.8rem;
+
+}
+
+.questionaire-status {
+    padding: 1rem;
+    background-color: #8dffc6;
+    border-radius: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #4d4d4d;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionaire-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.4rem;
+}
+
+.questionaire-description {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    padding: 2rem;
+    background-color: #29a0cf;
+    border-radius: 0.8rem;
+    color: #fff;
+
+
+}
+
+.questionaire-action-link {
+    border: 0.1rem solid #4d4d4d;
+    border-radius: 0.6rem;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 1rem;
+    width: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.questionaire-action-link:hover {
+    opacity: 0.7;
+}
+
+
