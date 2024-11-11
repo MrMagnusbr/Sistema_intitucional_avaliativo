@@ -6,5 +6,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/krl', function () {
-    return view('gozei');
+    return view('kk');
 });
