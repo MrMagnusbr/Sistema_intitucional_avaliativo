@@ -1,18 +1,6 @@
 /* Reset Css Abaixo*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -212,6 +200,64 @@ html {
     display: flex;
 
     align-items: center;
-    justify-content: ;
     width: 90vw;
+}
+/* Responses.css */
+
+/* Tamanho de fonte padrão */
+.responsive-title {
+    font-size: 2rem; /* Ajuste conforme necessário */
+}
+
+.responsive-description {
+    font-size: 1.2rem; /* Ajuste conforme necessário */
+}
+
+.responsive-user {
+    font-size: 1rem; /* Ajuste conforme necessário */
+}
+
+/* Ajustes para tablets e dispositivos médios */
+@media (max-width: 992px) { /* Breakpoint md do Bootstrap */
+    .responsive-title {
+        font-size: 1.8rem;
+    }
+
+    .responsive-description {
+        font-size: 1.1rem;
+    }
+
+    .responsive-user {
+        font-size: 0.9rem;
+    }
+}
+
+/* Ajustes para dispositivos pequenos */
+@media (max-width: 768px) { /* Breakpoint sm do Bootstrap */
+    .responsive-title {
+        font-size: 1.5rem;
+    }
+
+    .responsive-description {
+        font-size: 1rem;
+    }
+
+    .responsive-user {
+        font-size: 0.85rem;
+    }
+}
+
+/* Ajustes para dispositivos extra pequenos */
+@media (max-width: 576px) { /* Breakpoint xs do Bootstrap */
+    .responsive-title {
+        font-size: 1.3rem;
+    }
+
+    .responsive-description {
+        font-size: 0.9rem;
+    }
+
+    .responsive-user {
+        font-size: 0.8rem;
+    }
 }
